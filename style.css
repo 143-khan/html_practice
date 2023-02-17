@@ -1,5 +1,5 @@
 
-        #first{
+        /* #first{
             background-color: aquamarine;
         }
         .bg-blue{
@@ -14,4 +14,66 @@
         }
         .blue{
             color: aquamarine; background: #000;
+        } */
+        /* #immg{
+            border-image: 50px;
+            border-image-width: 50px;
+            height: 100px;
+            padding-bottom: 20cm;
+        } */
+        /* h1{
+            text-align: center;
+            text-shadow: #060505;
+            padding-bottom:  122cm;
         }
+        p{
+            text-align: center;
+            color: #060505;
+            background-color: blue;
+        } */
+        /* .reeed{
+              background-color: blue;
+              color: chartreuse;
+        }
+        #head{
+            background-color: brown;
+            color: yellow;
+        } */
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+        /* #salu{
+            background-color: brown;
+            color: blue;
+            
+        }
+        .khalo{
+            background-color: aquamarine;
+            color: blueviolet;
+        } */
+        
+        .reeeel{
+            background-image: url(image.jpg.jpg);
+            background-repeat: repeat-x;
+            width: 1270px;
+            height: 200px;
+            background-color: rgb(228, 20, 20);
+            color: rgb(13, 12, 12);
+            background-size: cover;
+            border: 2px solid red;
+            /* background-position: center; */
+            background-attachment: fixed;
+
+        }
+        
+
+
+
+
+
+
+
+
+
