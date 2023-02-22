@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>float website</title>
+    <style>
+      /* .box1 {
+        height: 333px;
+        width: 244px;
+        background-color: aquamarine;
+
+        float: left;
+      }
+      .box2 {
+        height: 343px;
+        width: 244px;
+        background-color: red;
+        float: right;
+        clear: right;
+      } */
+      .container{
+        display: flex;
+        
+        flex-wrap: wrap;
+        flex-direction: row;
+        height: 50vh;
+        background-color: aquamarine;
+        justify-content: center;
+        align-items: center;
+        /* align-content: center; */
+
+      }
+      .box4 {
+        background-color: chartreuse;
+        color: black;
+        order: 2;
+        border: 34px solid yellowgreen;
+        align-self: flex-end;
+      }
+      .box5 {
+        background-color: rgb(211, 21, 151);
+        color: black;
+      }
+      .box6 {
+        background-color: rgb(188, 223, 46);
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="box1">
+        this is box one 
+    </div>
+    <div class="box2">
+        this is box 2
+    </div> -->
+    <div class="container">
+      <div class="box4">salman khan is one of the the most handsome boys</div>
+      <div class="box5">Khalid khan is one of the the most handsome boys</div>
+      <div class="box6">aqib khan is one of the the most handsome boys</div>
+    </div>
+  </body>
+</html>
